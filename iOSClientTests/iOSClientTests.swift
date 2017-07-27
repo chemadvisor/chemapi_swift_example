@@ -1,10 +1,8 @@
-//
-//  iOSClientTests.swift
-//  iOSClientTests
-//
-//  Created by He Han on 26/05/2017.
-//  Copyright © 2017 He Han. All rights reserved.
-//
+/*
+ * Copyright (c) 2017 ChemADVISOR, Inc. All rights reserved.
+ * Licensed under The MIT License (MIT)
+ * https://opensource.org/licenses/MIT
+ */
 
 import XCTest
 @testable import iOSClient
