@@ -35,8 +35,8 @@ class ViewController: UIViewController {
         // set accept header: "application/xml", "application/json"
         let acceptHeader = "application/json"
         
-        // set api
-        let api = "lists"
+        // set resource
+        let resource = "regulatory_lists"
         
         // set query parameters:q, limit, offset
         let q = "{\"tages.tag.name\":\"Givernment Inventory Lists\"}"
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let offset = 0
         
         
-        let urlComponents = NSURLComponents(string: baseAddress + api)!
+        let urlComponents = NSURLComponents(string: baseAddress + resource)!
         urlComponents.queryItems = [
             NSURLQueryItem(name: "q", value: q.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)) as URLQueryItem,
             NSURLQueryItem(name: "limit", value: String(limit)) as URLQueryItem,
